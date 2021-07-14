@@ -30,7 +30,7 @@
     "@aurelia/runtime": "0.7.0",
     "@aurelia/scheduler-dom": "0.7.0",
     "@aurelia/scheduler": "0.7.0",
-    "@aurelia/validation": "0.7.0",
+    "@aurelia/validation": "0.9.0",
     "i18next": "^17.0.0",
     "i18next-fetch-backend": "^2.2.0",
     "i18next-intervalplural-postprocessor": "^1.0.0",
