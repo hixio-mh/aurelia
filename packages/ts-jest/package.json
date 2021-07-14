@@ -36,7 +36,7 @@
   "dependencies": {
     "@aurelia/kernel": "0.7.0",
     "@aurelia/metadata": "0.7.0",
-    "@aurelia/plugin-conventions": "0.7.0",
+    "@aurelia/plugin-conventions": "0.9.0",
     "@aurelia/runtime": "0.7.0",
     "@aurelia/scheduler": "0.7.0",
     "ts-jest": "^25.5.0"
