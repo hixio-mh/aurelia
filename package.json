@@ -65,7 +65,7 @@
     "@types/parse5": "^5.0.2",
     "@types/pixi.js": "^4.8.9",
     "@types/querystringify": "^2.0.0",
-    "@types/request": "^2.48.4",
+    "@types/request": "^2.48.5",
     "@types/vinyl": "^2.0.4",
     "@types/webpack": "^4.41.0",
     "@types/webpack-env": "^1.14.1",
