@@ -52,7 +52,7 @@
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@jest/transform": "^26.0.1",
-    "@jest/types": "^26.0.1",
+    "@jest/types": "^26.6.2",
     "@mermaid-js/mermaid-cli": "^8.4.8",
     "@types/acorn": "^4.0.5",
     "@types/fancy-log": "^1.3.1",
