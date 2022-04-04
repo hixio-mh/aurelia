@@ -1,0 +1,724 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - concurrently > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - eslint > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - eslint-plugin-jsdoc > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - html-webpack-plugin > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@commitlint/cli > @commitlint/lint > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@commitlint/cli > @commitlint/load > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - cz-conventional-changelog > @commitlint/load > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - cz-conventional-changelog > commitizen > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - commitizen > inquirer > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - eslint > inquirer > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - eslint > table > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - htmlhint > async > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - source-map-loader > async > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - htmlhint > jshint > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - mocha > yargs-unparser > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@commitlint/cli > @commitlint/lint > @commitlint/parse > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@commitlint/cli > @commitlint/load > @commitlint/resolve-extends > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - cz-conventional-changelog > @commitlint/load > @commitlint/resolve-extends > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - commitizen > cz-conventional-changelog > @commitlint/load > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @types/babel__core > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/generator > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/traverse > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helper-module-transforms > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - cz-conventional-changelog > commitizen > inquirer > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > async > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - webpack-dev-server > portfinder > async > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma > log4js > streamroller > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@commitlint/cli > @commitlint/lint > @commitlint/parse > conventional-commits-parser > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@commitlint/cli > @commitlint/lint > @commitlint/rules > @commitlint/ensure > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - commitizen > cz-conventional-changelog > @commitlint/load > @commitlint/resolve-extends > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/generator > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/template > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/traverse > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/traverse > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helper-module-transforms > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helpers > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @types/babel__core > @types/babel__generator > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @types/babel__core > @types/babel__template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @types/babel__core > @types/babel__traverse > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-preset-jest > babel-plugin-jest-hoist > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/traverse > @babel/generator > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/generator > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/generator > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/traverse > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - lerna > @lerna/clean > @lerna/prompt > inquirer > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - lerna > @lerna/import > @lerna/prompt > inquirer > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - lerna > @lerna/version > @lerna/prompt > inquirer > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - lerna > @lerna/publish > @lerna/prompt > inquirer > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma > log4js > streamroller > async > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - lerna > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - lerna > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-commits-parser > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - lerna > @lerna/version > @lerna/conventional-commits > conventional-recommended-bump > conventional-commits-parser > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helper-module-transforms > @babel/template > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helpers > @babel/template > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/template > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-preset-jest > babel-plugin-jest-hoist > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/traverse > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-preset-jest > babel-plugin-jest-hoist > @types/babel__traverse > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/generator > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/generator > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/traverse > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/traverse > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - lerna > @lerna/publish > @lerna/otplease > @lerna/prompt > inquirer > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - lerna > @lerna/publish > @lerna/version > @lerna/prompt > inquirer > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - lerna > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-changelog-writer > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - lerna > @lerna/publish > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - lerna > @lerna/publish > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-commits-parser > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - lerna > @lerna/publish > @lerna/version > @lerna/conventional-commits > conventional-recommended-bump > conventional-commits-parser > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/generator > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/template > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/template > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/generator > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/traverse > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - lerna > @lerna/publish > @lerna/npm-dist-tag > @lerna/otplease > @lerna/prompt > inquirer > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - lerna > @lerna/publish > @lerna/npm-publish > @lerna/otplease > @lerna/prompt > inquirer > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - lerna > @lerna/publish > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-changelog-writer > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/template > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/template > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/template > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
+    - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-04-04T11:48:41.437Z'
